@@ -1,0 +1,319 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+
+
+body {
+  font-family: sans-serif; 
+  font-size: 16px;
+  line-height: 25px;
+background-color: #bac2d8;
+}
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;
+color: #0b41a5;
+}
+
+.Logoprin h1{
+  font-family: 'Playfair Display', serif;
+}
+header {
+  background-color: #2a7fb4;
+  padding: 0px 0;
+  position: sticky;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  align-items: center;
+}
+/*#347bfc*/
+header h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: 'Playfair Display', serif;
+  display: inline-block;
+  position: relative;
+  bottom: 35px;
+  margin-left: 10px;
+text-align: left;
+}
+
+nav {
+  background-color: #000000;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  flex-grow: 5;
+}
+
+
+nav ul li a {
+  color: rgb(247, 209, 209);
+  text-decoration: none;
+  padding: 3 6;
+  display: block;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.507)
+}
+
+.holder {
+  max-width: 1500px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+.Logoprin {
+  text-align: center;
+}
+
+/*Empieza HomePage*/
+
+.titulo {
+  color: #000000;
+  text-align: center;
+  font-size: 55px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: left;
+  color: #000000;
+  text-size-adjust: 120px;
+}
+
+.cabecera {
+  justify-content: center;
+
+}
+
+.cabecera p {
+  text-align: center;
+  font-size: 55px;
+  color: #0b41a5;
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+
+.cabecera img {
+  text-align: center;
+  width: 1000px;
+  height: auto;
+}
+
+.galeriadestinos {
+  display: flex;
+
+  padding: 5px;
+  justify-content: space-between;
+
+
+
+}
+
+.galeriadestinos img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  /*padding: 0.3em;*/
+
+  margin-bottom: 20px;
+
+}
+
+/* Estilos "sobre nosotros" */
+
+.historia p {
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'DM Sans', bold;
+}
+
+.historia h2 {
+  text-align: center;
+}
+
+.personas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.persona {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 18%;
+  text-align: center;
+  padding: 13px;
+  box-sizing: border-box;
+  background-color: rgba(202, 194, 196, 0.473);
+
+}
+
+.persona img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.personas h4 {
+  color: #0b41a5;
+  font-size: 25px;
+}
+
+.personas h5 {
+  color: #347bfc;
+}
+
+.staff h2 {
+  color: #00ff50;
+  text-align: center;
+}
+
+.persona p {
+  text-align: justify;
+}
+
+/*fin sobre nosotros*/
+
+/*inicio contacto*/
+.contacto {
+  display: flex;
+  gap: 24px;
+}
+
+
+.contacto div {
+  width: 100%;
+
+}
+
+.datos {
+  text-align: left;
+
+}
+
+.datos ul li {
+  font-size: 25px;
+  
+}
+
+.formulario p {
+  display: flex;
+  color: #000000;
+}
+
+.formulario p label {
+  min-width: 80px;
+  background-color: #74747483;
+  display: flex;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario p input {
+  width: 100%;
+}
+
+.formulario p input,
+.formulario p textarea {
+  background: #49679e69;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border: 1px solid #999;
+  font-size: 15px;
+  padding: 6px 10px;
+}
+
+.formulario p textarea {
+  resize: none;
+  height: 150px;
+  width: 100%;
+}
+
+/*fin contacto*/
+
+/*inicio destinos*/
+
+.destinos {
+  display:flexbox
+  
+
+}
+
+.destino {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0%;
+  background-color: rgba(202, 194, 196, 0.473);
+ display: flex;
+ justify-content: space-around;
+}
+
+.destino img {
+  width: 400px;
+  height: 200px;
+  text-align: left;
+}
+
+.destinos h4 {
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+.destino p{
+  text-align: right;
+  align-items: center;
+}
+
+.texto{
+width: 300px;
+text-align: center;
+align-items: center;
+}
+.texto p{
+  text-align: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.footer{
+  background-color: #616161;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+.container h1{
+font-size: 40px;
+}
